@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_grey"
+    tools:context=".MainActivity"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" U I C "
+        android:textSize="70dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:background="@drawable/textview_border"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="50dp"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="- swapnilgore029@gmail.com"
+        android:layout_below="@id/progressBar"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:textColor="#ffffff"
+        />
+
+</RelativeLayout>

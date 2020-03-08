@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+        android:id="@+id/nav_icMode_drawer"
+        android:icon="@drawable/ic_memory_black"
+        android:title="@string/ic_mode" />
+
+        <item
+            android:id="@+id/nav_findUIC_drawer"
+            android:icon="@drawable/ic_bluetooth_black"
+            android:title="@string/find_uic" />
+
+        <item
+            android:id="@+id/nav_howToUse_drawer"
+            android:icon="@drawable/ic_how_to_use"
+            android:title="@string/how_to_use" />
+    </group>
+
+    <item android:title="Others"
+        android:id="@+id/title_communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_updates"
+                android:icon="@drawable/ic_new_releases_black_24dp"
+                android:title="@string/whats_new" />
+        </menu>
+    </item>
+
+</menu>

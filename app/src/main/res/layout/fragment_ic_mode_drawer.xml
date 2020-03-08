@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".icMode_drawer"
+    android:orientation="vertical"
+    android:background="#363636"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Enter IC Name"
+        android:iconifiedByDefault="false"
+        android:id="@+id/searchView"
+        android:scrollbarSize="30dp"
+        android:background="@color/dark_grey"
+        android:paddingRight="5dp"
+        android:paddingTop="10dp"
+        ></SearchView>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myList"
+        android:background="@color/dark_grey"
+        android:paddingLeft="5dp"
+        android:paddingVertical="10dp"
+        ></ListView>
+
+</LinearLayout>

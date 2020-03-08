@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.digitaluic">
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon2"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".drawer_activity"
+            android:label="@string/title_activity_drawer_activity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".ScrollingActivity_contact"
+            android:label="@string/title_activity_scrolling_contact"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".XorGate" />
+        <activity android:name=".OrGate" />
+        <activity android:name=".AndGate2" />
+        <activity android:name=".NotGate" />
+        <activity android:name=".NorGate" />
+        <activity android:name=".NandGate" />
+        <activity android:name=".alreadyRegistered" />
+        <activity android:name=".AndGate" />
+        <activity android:name=".LoginPage" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

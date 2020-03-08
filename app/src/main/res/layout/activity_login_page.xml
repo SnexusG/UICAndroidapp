@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginPage"
+    android:padding="20dp"
+    android:background="@color/dark_grey"
+    >
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        android:hint="Enter a Username"
+        android:textSize="20dp"
+        android:layout_marginTop="180dp"
+        />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="College/Institute Name"
+        android:textSize="20dp"
+        android:layout_marginTop="240dp"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter your email id"
+        android:textSize="20dp"
+        android:layout_marginTop="300dp"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        />
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textSize="20dp"
+        android:layout_below="@id/editText"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#ffffff"
+        android:textColor="#ffffff"
+        />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="20dp"
+        android:layout_below="@id/editText2"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already Registered ? click me! "
+        android:layout_below="@id/button19"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#8db8e0"
+        />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip"
+        android:layout_alignParentRight="true"
+        android:textSize="20dp"
+        android:textColor="#8db8e0"
+        />
+
+
+</RelativeLayout>
